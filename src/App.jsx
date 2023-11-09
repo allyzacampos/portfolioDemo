@@ -8,7 +8,7 @@ import { Services } from './Sections/Services'
 function App() {
 
   return (
-    <div className='space-y-8'>
+    <div className='space-y-10'>
       <Nav />
       <Hero />
       <About />
