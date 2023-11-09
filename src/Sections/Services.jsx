@@ -17,7 +17,7 @@ export const Services = () => {
             <Paragraph>Are you looking to elevate your online presence or give your brand a fresh new look? I'm here to assist you in creating impactful designs and seamless online experiences. Here's how I can help you:</Paragraph>
         </TextCol>
         
-        <div className='p-10 md:flex flex-none space-x-5 justify-center'>
+        <div className='px-10 md:flex flex-none space-x-5 justify-center'>
             <Card className="mt-6 p-5 rounded-lg border-2 border-green-600">
                 <CardBody className='p-5 space-y-2'>
                     <IconStyle>
