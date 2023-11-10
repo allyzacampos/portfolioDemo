@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "@material-tailwind/react";
-import imgHero from './header-img.png';
-import { H1 } from '../Components/H1';
-import { Paragraph } from "../Components/Paragraph";
-import { Section } from "../Components/Section";
-import { Grid } from '../Components/gridCol';
-import { TextCol } from '../Components/textCol';
-import { ImgCol } from "../Components/imgCol";
+import imgHero from '../../public/Images/header-img.png';
+import { H1 } from '../Components/Reusable Styles/H1';
+import { Paragraph } from "../Components/Reusable Styles/Paragraph";
+import { Section } from "../Components/Reusable Styles/Section";
+import { Grid } from '../Components/Reusable Styles/gridCol';
+import { TextCol } from '../Components/Reusable Styles/textCol';
+import { ImgCol } from "../Components/Reusable Styles/imgCol";
 
 function Hero() {
   return ( 
