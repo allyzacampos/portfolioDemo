@@ -19,7 +19,7 @@ export const Services = () => {
         </TextCol>
         
         <div className='md:px-10 w-full px-5 sm-md:flex-none lg:flex justify-center gap-4'>
-            <Card className="mt-6 p-5 rounded-[30px] border-[1px] border-green-600 w-full">
+            <Card className="mt-6 p-5 rounded-[30px] border-[1px] border-green-600 w-full shadow-none">
                 <CardBody className='p-5 space-y-2'>
                     <img src={graphicIcon} draggable="false" className="mb-7"/>
 
@@ -28,7 +28,7 @@ export const Services = () => {
                 </CardBody>
             </Card>
 
-            <Card className="mt-6 p-5 rounded-[30px] border-[1px] border-green-600 w-full">
+            <Card className="mt-6 p-5 rounded-[30px] border-[1px] border-green-600 w-full shadow-none">
                 <CardBody className='p-5 space-y-2'>
                     <img src={webIcon} draggable="false" className="mb-7"/>
 
@@ -37,7 +37,7 @@ export const Services = () => {
                 </CardBody>
             </Card>
 
-            <Card className="mt-6 p-5 rounded-[30px] border-[1px] border-green-600 w-full">
+            <Card className="mt-6 p-5 rounded-[30px] border-[1px] border-green-600 w-full shadow-none">
                 <CardBody className='p-5 space-y-2'>
                     <img src={devIcon} draggable="false" className="mb-7"/>
 

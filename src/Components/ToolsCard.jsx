@@ -24,18 +24,18 @@ export const ToolsCard = () => {
     ];
   
     return (
-        <div className='flex'>
+        <div className='flex flex-wrap gap-y-3'>
         {tools.map((tool, index) => (
-          <Card key={index} className='flex-shrink-0 w-80 mx-4'>
-            <CardBody>
-              <div className='text-center'>
-                <CircularProgressBar targetValue={tool.targetValue} />
-                <Paragraph>{tool.title}</Paragraph>
-              </div>
-            </CardBody>
-          </Card>
-        ))}
-      </div>
+        <Card key={index} className='flex-shrink-0 w-full sm:w-1/5 md:w-1/4 lg:w-1/5 xl:w-1/5 mx-5 mb-5 shadow-none space-y-4'>
+          <CardBody>
+            <div className='space-y-4 '>
+              <CircularProgressBar targetValue={tool.targetValue}/>
+              <Paragraph>{tool.title}</Paragraph>
+            </div>
+          </CardBody>
+        </Card>
+      ))}
+    </div>
     );
   };
   

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { CircularProgressbar } from 'react-circular-progressbar';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 function CircularProgressBar({ targetValue }) {
@@ -21,8 +21,9 @@ function CircularProgressBar({ targetValue }) {
   }, [percentage, targetValue]);
 
   return (
-      <div style={{ width: 80 }}>
-        <CircularProgressbar value={percentage} text={`${Math.round(percentage)}%`} />
+      <div className='w-20'>
+        <CircularProgressbar value={percentage} text={`${Math.round(percentage)}%`} 
+        styles={buildStyles({pathColor: '#16A34A', textColor: 'inherit'})}/>
       </div>
   );
 }
