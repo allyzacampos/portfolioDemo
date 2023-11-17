@@ -1,7 +1,8 @@
+import { Typography } from '@material-tailwind/react'
 import React from 'react'
 
 export const H1 = (props) => {
   return (
-    <h1 className="text-5xl font-bold ">{props.children}</h1>
+    <Typography className="h1 font-bold text-black-dark">{props.children}</Typography>
   )
 }

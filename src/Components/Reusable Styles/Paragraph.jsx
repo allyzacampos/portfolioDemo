@@ -1,7 +1,8 @@
+import { Typography } from '@material-tailwind/react'
 import React from 'react'
 
 export const Paragraph = (props) => {
   return (
-    <p className="text-xl leading-8">{props.children}</p>
+    <Typography className="p leading-8 text-black-dark">{props.children}</Typography>
   )
 }

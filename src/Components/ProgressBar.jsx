@@ -13,7 +13,7 @@ function CircularProgressBar({ targetValue }) {
       } else {
         clearInterval(interval);
       }
-    }, 5); // Decreased interval to 10 milliseconds
+    }, 5);
 
     return () => {
       clearInterval(interval);
@@ -21,10 +21,18 @@ function CircularProgressBar({ targetValue }) {
   }, [percentage, targetValue]);
 
   return (
-      <div className='w-20'>
-        <CircularProgressbar value={percentage} text={`${Math.round(percentage)}%`} 
-        styles={buildStyles({pathColor: '#16A34A', textColor: 'inherit'})}/>
-      </div>
+    <div className='w-20'>
+      <CircularProgressbar
+        value={percentage}
+        text={`${Math.round(percentage)}%`}
+        styles={buildStyles({
+          pathColor: '#16A34A',
+          textColor: 'inherit',
+          trailColor: '#aadebe', 
+        })}
+      />
+    </div>
   );
 }
+
 export default CircularProgressBar;
