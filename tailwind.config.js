@@ -30,9 +30,11 @@ module.exports = withMT({
       },
       orange: {
         default: '#F2A227',
+        500: '#F2A227',
       },
       green: {
         default: '#16A34A',
+        500: '#16A34A',
       },
     },
     fontFamily: {

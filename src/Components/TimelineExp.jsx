@@ -1,24 +1,24 @@
 import React from 'react';
 import { Timeline, TimelineItem, TimelineHeader, TimelineConnector, TimelineIcon, TimelineBody } from "@material-tailwind/react";
-import { Paragraph } from '../Components/Reusable Styles/Paragraph';
 import { ParagraphBold } from './Reusable Styles/ParagraphBold';
+import { Typography } from '@material-tailwind/react';
 
 export const TimelineExp = () => {
   const iconStyle = {
-    backgroundColor: '#16A34A',
+    backgroundColor: '#F2A227',
   };
 
   return (
-    <div className="h-full w-full md:w-[32rem]">
+    <div className="">
       <Timeline>
         <TimelineItem>
           <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon style={iconStyle}/>
-            <ParagraphBold><span className='text-[#F2A227]'>2019</span> Linkage Web Development</ParagraphBold>
+            <ParagraphBold><span className='text-[#16A34A]'>2019</span> Linkage Web Development</ParagraphBold>
           </TimelineHeader>
           <TimelineBody className="">
-            <Paragraph>Web Designer Intern</Paragraph>
+            <Typography className='p-sm'>Web Designer Intern</Typography>
           </TimelineBody>
         </TimelineItem>
 
@@ -26,10 +26,10 @@ export const TimelineExp = () => {
           <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon style={iconStyle} />
-            <ParagraphBold><span className='text-[#F2A227]'>2019 - Present</span> New Media Services</ParagraphBold>
+            <ParagraphBold><span className='text-[#16A34A]'>2019 - Present</span> New Media Services</ParagraphBold>
           </TimelineHeader>
           <TimelineBody>
-            <Paragraph>Web Designer</Paragraph>
+          <Typography className='p-sm'>Web Designer</Typography>
           </TimelineBody>
         </TimelineItem>
       </Timeline>

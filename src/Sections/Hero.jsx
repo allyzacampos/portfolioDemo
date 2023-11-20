@@ -1,12 +1,11 @@
 import React from "react";
-import imgHero from '../../public/Images/main-hero.png';
-import imgElement1 from '../../public/Images/hero-element1.svg';
-import imgElement2 from '../../public/Images/hero-element2.svg';
-import imgBg from '../../public/Images/hero-bg2.svg';
+import imgHero from '../../public/Images/Hero/main-hero.png';
+import imgElement1 from '../../public/Images/Hero/hero-element1.svg';
+import imgElement2 from '../../public/Images/Hero/hero-element2.svg';
+import imgBg from '../../public/Images/Hero/hero-bg2.svg';
 import { H1 } from '../Components/Reusable Styles/H1';
 import { Paragraph } from "../Components/Reusable Styles/Paragraph";
 import { Grid } from '../Components/Reusable Styles/gridCol';
-import { TextCol } from '../Components/Reusable Styles/textCol';
 import { ButtonStyleHover } from "../Components/ButtonStyleHover";
 
 function Hero() {
@@ -17,7 +16,7 @@ function Hero() {
   };
 
   return (
-    <div className="bg-[#eceff5] rounded-b-[95px] py-[70px] bg-fixed" style={backgroundStyle}>
+    <div className="bg-[#eceff5] rounded-b-[95px] py-[70px] sm:py-[50px] bg-fixed overflow-hidden" style={backgroundStyle} id="hero">
       <div className="container mx-auto">
         <Grid>
           <div className="md:p-10 p-5 space-y-4" data-aos="zoom-in-right">

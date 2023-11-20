@@ -14,6 +14,11 @@
         font-weight: 400;
         line-height: 2.1rem;
     }
+    .p-sm {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.3 rem;
+   }
     .p-bold {
         font-size: 20px;
         font-weight: 600;

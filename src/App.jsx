@@ -16,8 +16,8 @@ function App() {
     <Fragment>
       <Nav />
       <Hero />
-      <About />
       <Services />
+      <About />
       <SkillsAndExperience />
       <Portfolio />
       <Contact />

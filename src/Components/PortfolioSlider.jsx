@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
-import carousel1 from '../../public/Images/carousel1.png';
-import carousel2 from '../../public/Images/carousel2.png';
+import carousel1 from '../../public/Images/Carousel/carousel1.png';
+import carousel2 from '../../public/Images/Carousel/carousel2.png';
 
 export default function PortfolioSlider() {
   return (

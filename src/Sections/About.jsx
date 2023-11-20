@@ -1,16 +1,13 @@
 import React from 'react'
 import imgAbout from '../../public/Images/imgAbout.png';
 import { Paragraph } from '../Components/Reusable Styles/Paragraph';
-import { Section } from '../Components/Reusable Styles/Section';
 import { Grid } from '../Components/Reusable Styles/gridCol'
-import { TextCol } from '../Components/Reusable Styles/textCol';
-import { ImgCol } from "../Components/Reusable Styles/imgCol";
 import { Typography } from '@material-tailwind/react';
 
 
 const About = () => {
   return (
-    <div className="container mx-auto my-[90px]">
+    <div className="container mx-auto my-[90px] overflow-hidden" id='about'>
         <Grid>
             <div className="p-5 md:p-3 justify-center items-center flex" data-aos="zoom-in-right">
                 <img src={imgAbout} draggable="false" className=""/>
